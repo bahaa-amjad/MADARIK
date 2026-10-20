@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
 
   <body>
@@ -17,23 +18,26 @@
           <p class="text-xs ...">رحلتك تبدأ من هنا</p>
         </div>
     </div>
-        <nav>
+        <nav class="[&_p]:text-xs [&_button]:w-full [&_button]:p-4 [&_button]:rounded-lg [&_button]:text-right px-4">
           <!--هذه الجزئية خاصة بجزء مساحة التعلم في القائمة الجانبية -->
-          <div>
+          <div class="flex flex-col gap-2 ">
 
-            <p class="text-xl flex flex-col">مساحة التعلّم</p>
+            <p>مساحة التعلّم</p>
             
             <!--هذه الجزئية خاصة بما داخل مساحة التعلم-->
-            <div class="flex flex-col gap-2">
+           <div>
               <!--هذه الجزئية خاصة بالمكان الذي نعمل عليه حالياً -->
-              <div >
 
-                <button>
-                  <span>الرئيسية</span>
-                  <p>قيد العمل</p>
+                <button class="bg-blue-600 text-white">
+                  <div class="flex items-center gap-3">
+                  <i data-lucide="home"></i>
+                  <span >الرئيسية</span>
+                  </div>
+                  <p>قيد العمل 🕧</p>
                 </button>
-                <br>
-                <button>
+                 <button>
+
+                  <i data-lucide="book"></i>
                   <span>موادي</span>
                   <p>قيد العمل</p>
                 </button>
@@ -46,66 +50,77 @@
                                 <br>
 
                 <button>
+                  <i data-lucide="book-open"></i>
                   <span>مَدارك إنقاذ</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="clipboard"></i>
                   <span>خطتي الدراسية</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="bookmark"></i>
                   <span>المحفوظات</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="bar-chart"></i>
                   <span>تحليل المستوى</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="target"></i>
                   <span>وضع التركيز</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="search"></i>
                   <span>البحث في المنهاج</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="award"></i>
                   <span>التحديات</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="flask"></i>
                   <span>مختبر مَدارِك</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="bell"></i>
                   <span>الإشعارات</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="message-square"></i>
                   <span>المساعد الذكي</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
                                 <br>
 
                 <button>
+                  <i data-lucide="users"></i>
                   <span>الرعايات</span>
                   <p>متوقفة مؤقتاً</p>
                 </button>
@@ -205,7 +220,10 @@
 </main>
 
 
-</div>
-
+</div><!--هاي نهاي محددة الصفحة كاملة-->
+<!--ما حدا يكتب كود بعد هذا السطر-->
+<script>
+    lucide.createIcons();
+</script>
   </body>
 </html>
