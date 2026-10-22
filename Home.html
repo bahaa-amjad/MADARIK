@@ -3,23 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="Joint-list.css">
+    <link rel="stylesheet" href="Home.css">
   </head>
   <body>
     <div>
-    <aside class="fixed right-0  top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
+    <aside class="home-sidebar">
 
-     <div class="flex items-center gap-3 ">
-    <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
+     <div class="home-inline-icon">
+    <img src="image/Book-open.png" alt="Book Logo" class="home-logo">
        <div>
-          <span class="text-xl font-bold">Madaik</span>
-          <p class="text-xs ...">رحلتك تبدأ من هنا</p>
+          <span class="home-brand">Madaik</span>
+          <p class="home-tagline">رحلتك تبدأ من هنا</p>
         </div>
     </div>
-        <nav class="[&_p]:text-xs [&_button]:w-full [&_button]:p-4 [&_button]:rounded-lg [&_button]:text-right px-4">
+        <nav class="home-sidebar-nav">
           <!--هذه الجزئية خاصة بجزء مساحة التعلم في القائمة الجانبية -->
-          <div class="flex flex-col gap-2 ">
+          <div class="home-nav-column">
 
             <p>مساحة التعلّم</p>
             
@@ -27,15 +28,15 @@
            <div>
               <!--هذه الجزئية خاصة بالمكان الذي نعمل عليه حالياً -->
 
-                  <a href="Home.html" class="flex items-center gap-3 p-4 rounded-lg bg-blue-600 text-white ">
-                    <div class="flex items-center gap-3">
+                  <a href="Home.html" class="home-nav-link home-nav-active">
+                    <div class="home-inline-icon">
                       <i data-lucide="home"></i>
                       <span>الرئيسية</span>
                     </div>
                   </a>
                 
-                  <a href="subjects.html" class="flex items-center gap-3 p-4 rounded-lg ">
-                      <div class="flex items-center gap-3">
+                  <a href="subjects.html" class="home-nav-link">
+                      <div class="home-inline-icon">
                         <i data-lucide="book"></i>
                         <span>موادي</span>
                       </div>
@@ -46,94 +47,72 @@
               <!--هذه الجزئية خاصة بالمكان الذي سنعمل عليه بالمستقبل
               هاي الجزئية عملتها عشان اغير فيها النص"متوقفة مؤقتاً"بس-->
               <div>
-                 <a href="madarik-aniqadh.html" class="flex items-center gap-3 p-4 rounded-lg">
-                    <div class="flex items-center gap-3">
+                 <a href="madarik-aniqadh.html" class="home-nav-link">
+                    <div class="home-inline-icon">
                   <i data-lucide="book-open"></i>
                   <span>مَدارك إنقاذ</span>
                 </div>
                 </a>
-                                <br>
 
-                <button>
+                <a href="study-plan.html" class="home-nav-link">
                   <i data-lucide="clipboard"></i>
                   <span>خطتي الدراسية</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="bookmarks.html" class="home-nav-link">
                   <i data-lucide="bookmark"></i>
                   <span>المحفوظات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="level-analysis.html" class="home-nav-link">
                   <i data-lucide="bar-chart"></i>
                   <span>تحليل المستوى</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="focus.html" class="home-nav-link">
                   <i data-lucide="target"></i>
                   <span>وضع التركيز</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="curriculum-search.html" class="home-nav-link">
                   <i data-lucide="search"></i>
                   <span>البحث في المنهاج</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="challenges.html" class="home-nav-link">
                   <i data-lucide="award"></i>
                   <span>التحديات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="madarik-lab.html" class="home-nav-link">
                   <i data-lucide="flask"></i>
                   <span>مختبر مَدارِك</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="notifications.html" class="home-nav-link">
                   <i data-lucide="bell"></i>
                   <span>الإشعارات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="smart-assistant.html" class="home-nav-link">
                   <i data-lucide="message-square"></i>
                   <span>المساعد الذكي</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="sponsorships.html" class="home-nav-link">
                   <i data-lucide="users"></i>
                   <span>الرعايات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="roadmap.html" class="home-nav-link">
+                  <i data-lucide="map"></i>
                   <span>خارطة التطوير</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="admin.html" class="home-nav-link">
+                  <i data-lucide="settings"></i>
                   <span>لوحة الإدارة</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
+                </a>
 
               </div>
             </div>
@@ -141,22 +120,20 @@
             <!--هذه الجزئية خاصة بالحساب والتفضيلات بالقائمة الجانبية-->
             <div>
 
-              <p class="text-xl flex flex-col">الحساب والتفضيلات</p>
+              <p class="home-account-title">الحساب والتفضيلات</p>
 
               <!--هذه الجزئية خاصة بالمكان الذي سنعمل عليه بالمستقبل-->
               <div>
-                                <br>
 
-                <button>
+                <a href="profile.html" class="home-nav-link">
+                  <i data-lucide="user-round"></i>
                   <span>الملف الشخصي</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
+                </a>
 
-                <button>
+                <a href="scholarships.html" class="home-nav-link">
+                  <i data-lucide="graduation-cap"></i>
                   <span>المنح الدراسية</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
+                </a>
 
               </div>
             </div>
@@ -166,10 +143,10 @@
              </div>
       </aside>
       
-<header class="fixed top-0 left-0 right-64 z-10 p-6 bg-[oklch(55.4%_0.046_257.417)] text-white">
+<header class="home-header">
 
     <!-- الجزء العلوي -->
-    <div class="flex justify-between items-center">
+    <div class="home-header-row">
 
         <!-- اسم الصفحة على اليمين -->
         <div>
@@ -178,7 +155,7 @@
         </div>
 
         <!-- الأدوات على اليسار -->
-        <div class="flex items-center gap-4">
+        <div class="home-header-tools">
 
             <div>
                 <input type="text" placeholder="ابحث عن مادة او درس...">
@@ -200,21 +177,72 @@
         </div>
     </div>
     <!-- الجزء السفلي -->
-    <div class="mt-8">
-        <span class="block text-2xl font-bold text-black">صباح الإنجاز! 👋</span>
-        <span class="block  text-xs text-gray-400  gap-x-10">أهلاً بك في مساحة التوجيهي • مسار علمي</span>
+    <div class="home-header-subtitle">
+        <span class="home-greeting">صباح الإنجاز! 👋</span>
+        <span class="home-greeting-desc">أهلاً بك في مساحة التوجيهي • مسار علمي</span>
     </div>
 </header>
 
-<main>
+<main class="home-main">
   <!-- هان الشغل لمحمد جرادات-->
 
+  <!-- الشغل على المربع الاول -->
+<section class="kit-spotlight">
+  <div>
+    <h3>🧰 مكتبة أدوات مَدارك — 40 طريقة جديدة للتعلّم</h3>
+    <p>سبورة ذكية، بطاقات، محاكاة امتحانات، خرائط مفاهيم، أدوات وصول ودليل جامعي.</p>
+  </div>
+  <a href="subjects.html" class="kit-btn">افتح مكتبة الأدوات</a>
+</section>
 
+<!-- الشغل على المربع الثاني -->
+<section class="kit-spotlight-2">
+  <div class="text-content">
+    <span class="top-span">رحلتك لهذا الأسبوع</span>
+    <h3>كل درس تقطعه... أقرب لهدفك 🎓</h3>
+    <p>
+      واصل التعلّم، حلّ الأسئلة، وراقب تقدّمك بخطوات واضحة.
+      جاهز لجلسة جديدة اليوم؟
+    </p>
 
+    <div class="link-actions">
+      <a href="subjects.html" class="btn">اذهب إلى موادي ></a>
+      <a href="subjects.html" class="btn-1">جرب امتحاناً 🕐</a>
+    </div>
+  </div>
 
+  <div class="book-icon">📖</div>
+</section>
 
+<!-- الشغل على المربع الثالث -->
 
+<section class="kit-spotlight-3">
+  <div>
+    <p>ميزة رئيسية • دعم الطلاب المتراكمين</p>
+    <h3>🛟 مَدارك إنقاذ — ارجع افهم من الأساس</h3>
+    <p>خايف من التراكم؟ اختبر مهاراتك، اعرف أول فجوة عندك، وابدأ مسار علاج أو خطة طوارئ حسب وقتك.</p>
+  </div>
+  <a href="subjects.html" class="btn3">ابدأ الانقاذ</a>
+</section>
 
+<!-- المربع الرابع -->
+
+<section class="kit-spotlight-4">
+  <div>
+    <h3>كؤوس مَدارك — تعلّم واكسب مكافآت!</h3>
+    <p>أكمل إنجازين مختلفين يوميًا لكسب كأس ودنانير افتراضية. والذهب لوقت الدراسة النشط، حتى 60 دقيقة يوميًا.</p>
+  </div>
+  <a href="subjects.html" class="btn-4">افتح مكتبة الأدوات</a>
+</section>
+
+<!-- المخطط اليومي -->
+
+<!-- <a class="action-tile" href="subjects.html">
+  <p>🕐</p>
+  <strong>خطتي الدراسيه</strong> 
+  <p>رتب دراستك</p>
+  
+</a> -->
 
 </main>
 

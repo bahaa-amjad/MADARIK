@@ -1,0 +1,30 @@
+/* التنسيقات المشتركة بين الصفحات: القائمة الجانبية والعلوية */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: transparent; border: 0; cursor: pointer; }
+
+/* القائمة الجانبية */
+.home-sidebar { position: fixed; right: 0; top: 0; width: 16rem; height: 100vh; background-color: #142847; overflow-y: auto; color: #fff; }
+.home-inline-icon { display: flex; align-items: center; gap: .75rem; }
+.home-logo { width: 4rem; height: 4rem; object-fit: contain; flex-shrink: 0; }
+.home-brand { font-size: 1.25rem; line-height: 1.75rem; font-weight: 700; }
+.home-tagline { font-size: .75rem; line-height: 1rem; }
+.home-sidebar-nav { padding-left: 1rem; padding-right: 1rem; }
+.home-sidebar-nav p { font-size: .75rem; line-height: 1rem; }
+.home-sidebar-nav button { width: 100%; padding: 1rem; border-radius: .5rem; text-align: right; }
+.home-nav-column { display: flex; flex-direction: column; gap: .5rem; }
+.home-nav-link { display: flex; align-items: center; gap: .75rem; padding: 1rem; border-radius: .5rem; }
+.home-nav-active { background-color: #2563eb; color: white; }
+.home-account-title { font-size: 1.25rem; line-height: 1.75rem; display: flex; flex-direction: column; }
+
+/* القائمة العلوية */
+.home-header { position: fixed; top: 0; left: 0; right: 16rem; z-index: 10; padding: 1.5rem; background-color: oklch(55.4% 0.046 257.417); color: white; }
+.home-header-row { display: flex; justify-content: space-between; align-items: center; }
+.home-header-tools { display: flex; align-items: center; gap: 1rem; }
+.home-header-subtitle { margin-top: 2rem; }
+.home-greeting { display: block; font-size: 1.5rem; line-height: 2rem; font-weight: 700; color: #000; }
+.home-greeting-desc { display: block; font-size: .75rem; line-height: 1rem; color: #9ca3af; column-gap: 2.5rem; }
+
+/* تموضع محتوى كل صفحة بعيدًا عن القائمتين */
+.home-main { margin-right: 16rem; padding: 12rem 1.5rem 1.5rem; }
