@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <div>
     <aside class="fixed right-0  top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
@@ -28,31 +28,29 @@
            <div>
               <!--هذه الجزئية خاصة بالمكان الذي نعمل عليه حالياً -->
 
-                  <a href="Home.html" class="flex items-center gap-3 p-4 rounded-lg bg-blue-600 text-white ">
-                    <div class="flex items-center gap-3">
-                      <i data-lucide="home"></i>
-                      <span>الرئيسية</span>
-                    </div>
-                  </a>
+                <a href="Home.html" class="flex items-center gap-3 p-4 rounded-lg bg-blue-600 text-white ">
+                    <i data-lucide="home"></i>
+                  <span>الرئيسية</span>
+                </a>
                 
                   <a href="subjects.html" class="flex items-center gap-3 p-4 rounded-lg ">
-                      <div class="flex items-center gap-3">
-                        <i data-lucide="book"></i>
-                        <span>موادي</span>
-                      </div>
-                  </a>
+                <div class="flex items-center gap-3">
+                    <i data-lucide="book"></i>
+                    <span>موادي</span>
+                </div>
+                <p class="pr-9">قيد العمل</p>
+            </a>
 
               </div>
 
               <!--هذه الجزئية خاصة بالمكان الذي سنعمل عليه بالمستقبل
               هاي الجزئية عملتها عشان اغير فيها النص"متوقفة مؤقتاً"بس-->
               <div>
-                 <a href="madarik-aniqadh.html" class="flex items-center gap-3 p-4 rounded-lg">
-                    <div class="flex items-center gap-3">
+                <button>
                   <i data-lucide="book-open"></i>
                   <span>مَدارك إنقاذ</span>
-                </div>
-                </a>
+                  <p>متوقفة مؤقتاً</p>
+                </button>
                                 <br>
 
                 <button>
@@ -162,9 +160,7 @@
               </div>
             </div>
 
-          </div>
         </nav>
-             </div>
       </aside>
       
 <header class="fixed top-0 left-0 right-64 z-10 p-6 bg-[oklch(55.4%_0.046_257.417)] text-white">
@@ -197,13 +193,12 @@
                 <!-- الملف الشخصي -->
             </div>
 
-            
         </div>
     </div>
     <!-- الجزء السفلي -->
     <div class="mt-8">
-        <span class="block text-2xl font-bold text-black">صباح الإنجاز! 👋</span>
-        <span class="block  text-xs text-gray-400  gap-x-10">أهلاً بك في مساحة التوجيهي • مسار علمي</span>
+        <span class="block">صباح الإنجاز! 👋</span>
+        <span class="block">أهلاً بك في مساحة التوجيهي • مسار علمي</span>
     </div>
 </header>
 
@@ -211,52 +206,52 @@
   <!-- هان الشغل لمحمد جرادات-->
 
   <!-- الشغل على المربع الاول -->
-<section class="kit-spotlight">
+<section class="m-[18px] flex items-center justify-between rounded-[15px] border border-[#ffd700] bg-[#add8e6] p-[13px] text-[15px]">
   <div>
-    <h3>🧰 مكتبة أدوات مَدارك — 40 طريقة جديدة للتعلّم</h3>
-    <p>سبورة ذكية، بطاقات، محاكاة امتحانات، خرائط مفاهيم، أدوات وصول ودليل جامعي.</p>
+    <h3 class="block font-bold">🧰 مكتبة أدوات مَدارك — 40 طريقة جديدة للتعلّم</h3>
+    <p class="m-[5px] p-[5px] text-[13px] text-[#7b899e]">سبورة ذكية، بطاقات، محاكاة امتحانات، خرائط مفاهيم، أدوات وصول ودليل جامعي.</p>
   </div>
-  <a href="subjects.html" class="kit-btn">افتح مكتبة الأدوات</a>
+  <a href="subjects.html" class="rounded-[10px] bg-[#0000ff] p-3.5 text-[12px] font-bold text-white hover:bg-[#1a1aff]">افتح مكتبة الأدوات</a>
 </section>
 
 <!-- الشغل على المربع الثاني -->
-<section class="kit-spotlight-2">
-  <div class="text-content">
-    <span class="top-span">رحلتك لهذا الأسبوع</span>
-    <h3>كل درس تقطعه... أقرب لهدفك 🎓</h3>
-    <p>
+<section class="m-[18px] flex h-auto min-h-[200px] items-center justify-between gap-6 rounded-[15px] bg-[#028dff] p-[25px]">
+  <div class="min-w-0 flex-1">
+    <span class="inline-block -translate-y-3 rounded-[5px] bg-[#add8e6] p-[5px] text-[12px] font-bold text-[#008000]">رحلتك لهذا الأسبوع</span>
+    <h3 class="block p-[5px] text-[30px] font-bold text-white">كل درس تقطعه... أقرب لهدفك 🎓</h3>
+    <p class="p-[7px] text-[12px] text-white">
       واصل التعلّم، حلّ الأسئلة، وراقب تقدّمك بخطوات واضحة.
       جاهز لجلسة جديدة اليوم؟
     </p>
 
-    <div class="link-actions">
-      <a href="subjects.html" class="btn">اذهب إلى موادي ></a>
-      <a href="subjects.html" class="btn-1">جرب امتحاناً 🕐</a>
+    <div class="mt-[18px] flex flex-wrap gap-[10px]">
+      <a href="subjects.html" class="inline-block rounded-[10px] bg-[#0000ff] p-3.5 text-[12px] font-bold text-white hover:bg-[#4e4eff]">اذهب إلى موادي ></a>
+      <a href="subjects.html" class="inline-block rounded-[10px] border-[#ffffff45] bg-[#ffffff18] p-3.5 text-[12px] font-bold text-white hover:bg-[#4e4eff]">جرب امتحاناً 🕐</a>
     </div>
   </div>
 
-  <div class="book-icon">📖</div>
+  <div class="grid h-[110px] w-[110px] shrink-0 place-items-center rounded-[33px] border border-[#fff4] bg-[rgba(255,0,0,0.067)] text-[76px] shadow-[0_14px_25px_#0019,inset_0_0_25px_#ffffff14]">📖</div>
 </section>
 
 <!-- الشغل على المربع الثالث -->
 
-<section class="kit-spotlight-3">
+<section class="m-[18px] flex items-center justify-between rounded-[15px] bg-[#003d52] p-[13px] text-[15px]">
   <div>
-    <p>ميزة رئيسية • دعم الطلاب المتراكمين</p>
-    <h3>🛟 مَدارك إنقاذ — ارجع افهم من الأساس</h3>
-    <p>خايف من التراكم؟ اختبر مهاراتك، اعرف أول فجوة عندك، وابدأ مسار علاج أو خطة طوارئ حسب وقتك.</p>
+    <p class="m-[5px] p-[5px] text-[13px] text-[#a9b4c4]">ميزة رئيسية • دعم الطلاب المتراكمين</p>
+    <h3 class="block p-[5px] text-[20px] font-bold text-white">🛟 مَدارك إنقاذ — ارجع افهم من الأساس</h3>
+    <p class="m-[5px] p-[5px] text-[13px] text-[#a9b4c4]">خايف من التراكم؟ اختبر مهاراتك، اعرف أول فجوة عندك، وابدأ مسار علاج أو خطة طوارئ حسب وقتك.</p>
   </div>
-  <a href="subjects.html" class="btn3">ابدأ الانقاذ</a>
+  <a href="subjects.html" class="rounded-[10px] bg-white p-3.5 text-[12px] font-bold text-[#003d52] hover:bg-[#b4b2b2] hover:text-white">ابدأ الانقاذ</a>
 </section>
 
 <!-- المربع الرابع -->
 
-<section class="kit-spotlight-4">
+<section class="m-[18px] flex items-center justify-between rounded-[15px] border border-[#ffd700] bg-[linear-gradient(110deg,#ffe8af,#ffffff)] p-[13px] text-[15px]">
   <div>
-    <h3>كؤوس مَدارك — تعلّم واكسب مكافآت!</h3>
-    <p>أكمل إنجازين مختلفين يوميًا لكسب كأس ودنانير افتراضية. والذهب لوقت الدراسة النشط، حتى 60 دقيقة يوميًا.</p>
+    <h3 class="block p-[5px] text-[19px] font-bold text-[#936415]">كؤوس مَدارك — تعلّم واكسب مكافآت!</h3>
+    <p class="m-[5px] p-[5px] text-[13px] text-[#936415]">أكمل إنجازين مختلفين يوميًا لكسب كأس ودنانير افتراضية. والذهب لوقت الدراسة النشط، حتى 60 دقيقة يوميًا.</p>
   </div>
-  <a href="subjects.html" class="btn-4">افتح مكتبة الأدوات</a>
+  <a href="subjects.html" class="rounded-[10px] bg-[#0000ff] p-3.5 text-[12px] font-bold text-white hover:bg-[#1a1aff]">افتح مكتبة الأدوات</a>
 </section>
 
 <!-- المخطط اليومي -->
@@ -265,7 +260,6 @@
   <p>🕐</p>
   <strong>خطتي الدراسيه</strong> 
   <p>رتب دراستك</p>
-  
 </button> -->
 
 </main>
