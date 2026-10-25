@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
   </head>
 
-  <body>
+  <body class="bg-[#e8edf6]">
     <div>
     <aside class="fixed right-0  top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
 
@@ -206,7 +207,7 @@
   <!-- هان الشغل لمحمد جرادات-->
 
   <!-- الشغل على المربع الاول -->
-<section class="m-[18px] flex items-center justify-between rounded-[15px] border border-[#ffd700] bg-[#add8e6] p-[13px] text-[15px]">
+<section class="m-[18px] flex items-center justify-between rounded-[15px] border border-[#2BFFFF] bg-[linear-gradient(to_right,#D6E5FF,#CCDEFF,#99BAFF)] p-[13px] text-[15px]">
   <div>
     <h3 class="block font-bold">🧰 مكتبة أدوات مَدارك — 40 طريقة جديدة للتعلّم</h3>
     <p class="m-[5px] p-[5px] text-[13px] text-[#7b899e]">سبورة ذكية، بطاقات، محاكاة امتحانات، خرائط مفاهيم، أدوات وصول ودليل جامعي.</p>
@@ -215,18 +216,16 @@
 </section>
 
 <!-- الشغل على المربع الثاني -->
-<section class="m-[18px] flex h-auto min-h-[200px] items-center justify-between gap-6 rounded-[15px] bg-[#028dff] p-[25px]">
+<section class="m-[18px] flex h-auto min-h-[200px] items-center justify-between gap-6 rounded-[15px] bg-[linear-gradient(#003459,#005FA1,#0079CC)] p-[25px]">
   <div class="min-w-0 flex-1">
-    <span class="inline-block -translate-y-3 rounded-[5px] bg-[#add8e6] p-[5px] text-[12px] font-bold text-[#008000]">رحلتك لهذا الأسبوع</span>
+    <span class="inline-block -translate-y-3 rounded-[5px] bg-[#B9FFA6] p-[5px] text-[12px] font-bold text-[#008000]">رحلتك لهذا الأسبوع</span>
     <h3 class="block p-[5px] text-[30px] font-bold text-white">كل درس تقطعه... أقرب لهدفك 🎓</h3>
-    <p class="p-[7px] text-[12px] text-white">
-      واصل التعلّم، حلّ الأسئلة، وراقب تقدّمك بخطوات واضحة.
-      جاهز لجلسة جديدة اليوم؟
+    <p class="p-[7px] text-[12px] text-white"> واصل التعلّم، حلّ الأسئلة، وراقب تقدّمك بخطوات واضحة. جاهز لجلسة جديدة اليوم؟
     </p>
 
     <div class="mt-[18px] flex flex-wrap gap-[10px]">
-      <a href="subjects.html" class="inline-block rounded-[10px] bg-[#0000ff] p-3.5 text-[12px] font-bold text-white hover:bg-[#4e4eff]">اذهب إلى موادي ></a>
-      <a href="subjects.html" class="inline-block rounded-[10px] border-[#ffffff45] bg-[#ffffff18] p-3.5 text-[12px] font-bold text-white hover:bg-[#4e4eff]">جرب امتحاناً 🕐</a>
+      <a href="subjects.html" class="inline-block rounded-[10px] p-3.5 text-[12px] font-bold text-white bg-[#075985] hover:bg-[#0C4A6E] hvr-icon-wobble-horizontal">اذهب إلى موادي <span class="hvr-icon inline-block">></span></a>
+      <a href="subjects.html" class="inline-block rounded-[10px] border-[#ffffff45] p-3.5 text-[12px] font-bold text-white bg-[#0369A1] hover:bg-[#075985]">جرب امتحاناً 🕐</a>
     </div>
   </div>
 
@@ -235,7 +234,7 @@
 
 <!-- الشغل على المربع الثالث -->
 
-<section class="m-[18px] flex items-center justify-between rounded-[15px] bg-[#003d52] p-[13px] text-[15px]">
+<section class="m-[18px] flex items-center justify-between rounded-[15px] bg-[linear-gradient(#003006,#004F09,#008711)] p-[13px] text-[15px]">
   <div>
     <p class="m-[5px] p-[5px] text-[13px] text-[#a9b4c4]">ميزة رئيسية • دعم الطلاب المتراكمين</p>
     <h3 class="block p-[5px] text-[20px] font-bold text-white">🛟 مَدارك إنقاذ — ارجع افهم من الأساس</h3>
@@ -256,11 +255,175 @@
 
 <!-- المخطط اليومي -->
 
-<!-- <button class="action-tile" href="subjects.html">
-  <p>🕐</p>
-  <strong>خطتي الدراسيه</strong> 
-  <p>رتب دراستك</p>
-</button> -->
+<div dir="rtl" class="flex flex-wrap gap-3 m-2 p-2">
+
+  <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="timer"></p>
+    <strong class="block mt-2 text-[15px]">خطتي الدراسية</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">رتّب دراستك</p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="star"></p>
+    <strong class="block mt-2 text-[15px]">المحفوظات</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">مصادرك المفضلة </p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="chart-pie"></p>
+    <strong class="block mt-2 text-[15px]">تحليل المستوى</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">تابع نتائجك</p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="clock"></p>
+    <strong class="block mt-2 text-[15px]">اوضاع التركيز</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">اختر هدفك ونخلص من المشتتات</p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="search"></p>
+    <strong class="block mt-2 text-[15px]">البحث داخل المنهاج</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">اعثر على درسك</p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="podium"></p>
+    <strong class="block mt-2 text-[15px]">التحديات</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">اكسب الشارات</p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="bell"></p>
+    <strong class="block mt-2 text-[15px]">الإشعارات</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">أخر المستجدات</p>
+    </div>
+  </a>
+
+    <a href="subjects.html" class="group hvr-sweep-to-bottom block w-95 overflow-hidden rounded-[10px] bg-white p-4 before:!bg-[#003853]">
+    <div class="relative z-10">
+    <p class="text-2xl" data-lucide="heart"></p>
+    <strong class="block mt-2 text-[15px]">الشركاء والرعايات</strong>
+    <p class="mt-1 text-sm text-gray-500 text-[12px]">اطلع على الدعم</p>
+    </div>
+  </a>
+</div>
+
+<!-- الشغل على المربع الخامس -->
+
+<section class="m-[18px] flex items-center justify-between rounded-[15px] bg-[linear-gradient(#000563,#00058A,#000AE3)] p-[13px] text-[15px]">
+  <div>
+    <strong class="block p-[4px] text-[20px] font-bold text-white">إنجازك الحقيقي يبدأ من أول مهمة</strong>
+    <p class="m-[4px] p-[4px] text-[13px] text-[#a9b4c4]">أنجزت 0 مهمة، سجّلت 0 إجابة، ودرست 0 دقيقة تركيز.</p>
+  </div>
+
+  <div class="flex items-center gap-2 shrink-0">
+  <a href="subjects.html" class="rounded-[10px] bg-white p-3.5 text-[12px] font-bold text-[#003d52] hover:bg-[#b4b2b2] hover:text-white">أضف مهمة</a>
+  <a href="subjects.html" class="rounded-[10px] bg-white p-3.5 text-[12px] font-bold text-[#003d52] hover:bg-[#b4b2b2] hover:text-white">شاهد تحليلك</a>
+  </div>
+</section>
+
+
+<section class="m-2 p-2 text-right">
+<div class="mb-3 flex items-center justify-between gap-3">
+<strong class="text-[17px]">شركاء في دعم رحلتك التعليمية ✦</strong>
+<span class="bg-white rounded-[7px] border border-[#d2e0f0] px-3 py-2 font-bold text-[10px] text-gray-500">إعلانات ورعايات تجريبية</span>
+</div>
+
+<div class="bg-[linear-gradient(to_right,#F5FFF5,#E8FFE8,#E0FFE0)] p-5 border border-[#d2e0f0] rounded-[10px] flex items-center justify-between gap-6">
+<div>
+<strong class="text-[20px] text-[#193d32]">جامعة النجاح الوطنية</strong>
+<p class="text-[12px] m-2 p-1px text-gray-500">An-Najah National University</p>
+
+<strong class="text-[24px] text-[#193d32]">اكتشف مسارك الجامعي القادم 🎓</strong>
+<p class="text-[12px] m-2 p-1px text-gray-500">تعرّف إلى البرامج الأكاديمية والمعلومات المتعلقة بالقبول، وانتقل إلى الموقع الرسمي لجامعة النجاح الوطنية.</p>
+<a href="https://www.najah.edu/ar/" target="_blank" class="bg-[#193d32] text-white text-[14px] font-bold m-1 p-2 rounded-[5px] px-5 py-3 inline-flex mt-4 hover:bg-[#235444]">استكشف موقع الجامعه الرسمي ></a>
+</div>
+<img src="image\An-Najah-National-University.png" alt="An-Najah National University" class="h-45 w-45 shrink-0 object-contain">
+</div>
+</section>
+
+<section class="bg-[#FFFFFF] rounded-[15px] border border-[#4F91FF] m-4 p-4 flex items-center justify-between p-[13px]">
+  <div>
+    <strong class="block text-[15px] p-1 m-1">جديد في مَدارك: مختبر التجارب السبعة</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">اصطد الخطأ، جرّب القوانين، علّم طالبًا، وصمّم أسئلتك الخاصة.</p>
+  </div>
+  <a href="subjects.html" class="hvr-grow-shadow hvr-icon-wobble-horizontal bg-[#2D3CA1] rounded-[10px] m-1 p-3 font-bold text-[13.5px] text-[#FFFFFF]">استكشف المختبر <span class="hvr-icon inline-block">></span></a>
+</section>
+
+<section class="bg-[linear-gradient(to_right,#F4FFED,#E8FFD9,#E0FFCC)] rounded-[15px] border border-[#4F91FF] m-4 p-4 flex items-center justify-between p-[13px]">
+  <div>
+    <strong class="block text-[15px] text-[#17488d] p-1 m-1">💬 منتدى مَدارك الدراسي — اسأل وتعاون بأدب</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">نقاشات دراسية، تعليقات وإعجابات ومحفوظات، وفق ضوابط واضحة لاحترام الطلاب وخصوصيتهم.</p>
+  </div>
+  <a href="subjects.html" class="hvr-grow-shadow hvr-icon-wobble-horizontal bg-[#2D3CA1] rounded-[10px] m-1 p-3 font-bold text-[13px] text-[#FFFFFF]">ادخل المنتدى <span class="hvr-icon inline-block">></span></a>
+</section>
+
+<section class="bg-[linear-gradient(to_right,#FFFFFF,#CCEFFF,#B5E7FF)] rounded-[15px] border border-[#4F91FF] m-4 p-4 flex items-center justify-between p-[25px]">
+  <div>
+    <span class="inline-block -translate-y-3 rounded-[5px] bg-[#B9FFA6] p-[5px] text-[12px] font-bold text-[#008000] px-2 py-1">📚 مبادرة مدارك</span>
+    <h3 class="block p-[5px] text-[20px] text-[#000000] font-bold">كتابك القديم قد يساعد طالبًا جديدًا</h3>
+    <p class="p-[7px] text-[13px] text-gray-500">تبرع بكتبك وملخصاتك أو ابحث عمّا تحتاجه، ضمن ضوابط التسليم الآمن.</p>
+    </div>
+    <a href="subjects.html" class="hvr-grow-shadow hvr-icon-wobble-horizontal bg-[#2D3CA1] rounded-[10px] m-1 p-3 font-bold text-[13px] text-[#FFFFFF]">تبادل الكتب والملخصات <span class="hvr-icon inline-block">></span></a>
+</section>
+
+<!-- الانجازات المحققه -->
+<div dir="rtl" class="flex flex-wrap m-4">
+
+<section dir="rtl" class="flex w-[360px] items-center gap-3 bg-white rounded-[15px] p-2 m-4 flex">
+    <p data-lucide="chart-pie" class="h-10 w-10 bg-[#D4DBFF] text-[#052AFF] rounded-[10px] px-2 py-1"></p>
+<div>
+    <strong class="block text-[25px] text-black p-1 m-1">0%</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">إنجاز المواد الفعلي</p>
+    </div>
+</section>
+
+<!-- المربع الثاني -->
+
+<section dir="rtl" class="flex w-[360px] items-center gap-3 bg-white rounded-[15px] p-2 m-4 flex">
+    <p data-lucide="clock" class="h-10 w-10 bg-[#FFF8E3] text-[#FFC417] rounded-[10px] px-2 py-1"></p>
+<div>
+    <strong class="block text-[25px] text-black p-1 m-1">—</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">يومًا لأقرب امتحان أضفته</p>
+    </div>
+</section>
+
+<!-- المربع الثالث -->
+
+<section dir="rtl" class="flex w-[360px] items-center gap-3 bg-white rounded-[15px] p-2 m-4 flex">
+    <p data-lucide="star" class="h-10 w-10 bg-[#E4FFC7] text-[#84FF00] rounded-[10px] px-2 py-1"></p>
+<div>
+    <strong class="block text-[25px] text-black p-1 m-1">0</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">شارات مكتسبة</p>
+    </div>
+</section>
+
+<!-- المربع الرابع -->
+
+<section dir="rtl" class="flex w-[360px] items-center gap-3 bg-white rounded-[15px] p-2 m-4 flex">
+    <p data-lucide="flame" class="h-10 w-10 bg-[#FFD1D1] text-[#FF0000] rounded-[10px] px-2 py-1"></p>
+<div>
+    <strong class="block text-[25px] text-black p-1 m-1">0</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">دقيقة تركيز مسجلة</p>
+    </div>
+</section>
+</div>
+
+<!-- الباقي بعد اكمال صفحة موادي -->
 
 </main>
 
