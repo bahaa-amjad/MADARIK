@@ -1,170 +1,98 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مَدارك إنقاذ | مَدارِك</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-  </head>
-  <body>
-    <div>
-    <aside class="fixed right-0  top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
-
-     <div class="flex items-center gap-3 ">
-    <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
-       <div>
-          <span class="text-xl font-bold">Madaik</span>
-          <p class="text-xs ...">رحلتك تبدأ من هنا</p>
-        </div>
-    </div>
-        <nav class="[&_p]:text-xs [&_button]:w-full [&_button]:p-4 [&_button]:rounded-lg [&_button]:text-right px-4">
-          <!--هذه الجزئية خاصة بجزء مساحة التعلم في القائمة الجانبية -->
-          <div class="flex flex-col gap-2 ">
-
-            <p>مساحة التعلّم</p>
-            
-            <!--هذه الجزئية خاصة بما داخل مساحة التعلم-->
-           <div>
-              <!--هذه الجزئية خاصة بالمكان الذي نعمل عليه حالياً -->
-
-                  <a href="Home.html" class="flex items-center gap-3 p-4 rounded-lg">
-                    <div class="flex items-center gap-3">
-                      <i data-lucide="home"></i>
-                      <span>الرئيسية</span>
-                    </div>
-                  </a>
-                
-                  <a href="subjects.html" class="flex items-center gap-3 p-4 rounded-lg ">
-                      <div class="flex items-center gap-3">
-                        <i data-lucide="book"></i>
-                        <span>موادي</span>
-                      </div>
-                  </a>
-
-              </div>
-
-              <!--هذه الجزئية خاصة بالمكان الذي سنعمل عليه بالمستقبل
-              هاي الجزئية عملتها عشان اغير فيها النص"متوقفة مؤقتاً"بس-->
-              <div>
-                 <a href="madarik-aniqadh.html" class="flex items-center gap-3 p-4 rounded-lg bg-blue-600 text-white ">
-                    <div class="flex items-center gap-3">
-                  <i data-lucide="book-open"></i>
-                  <span>مَدارك إنقاذ</span>
-                </div>
-                </a>
-
-                <button>
-                  <i data-lucide="clipboard"></i>
-                  <span>خطتي الدراسية</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="bookmark"></i>
-                  <span>المحفوظات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="bar-chart"></i>
-                  <span>تحليل المستوى</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="target"></i>
-                  <span>وضع التركيز</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="search"></i>
-                  <span>البحث في المنهاج</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="award"></i>
-                  <span>التحديات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="flask"></i>
-                  <span>مختبر مَدارِك</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="bell"></i>
-                  <span>الإشعارات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="message-square"></i>
-                  <span>المساعد الذكي</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <i data-lucide="users"></i>
-                  <span>الرعايات</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <span>خارطة التطوير</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <span>لوحة الإدارة</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-
-              </div>
-            </div>
-
-            <!--هذه الجزئية خاصة بالحساب والتفضيلات بالقائمة الجانبية-->
+</head>
+<body class="bg-[#e8edf6]">
+    <aside class="fixed right-0 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
+        <div class="flex items-center gap-3 px-3 pt-4 pb-6">
+            <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
             <div>
-
-              <p class="text-xl flex flex-col">الحساب والتفضيلات</p>
-
-              <!--هذه الجزئية خاصة بالمكان الذي سنعمل عليه بالمستقبل-->
-              <div>
-                                <br>
-
-                <button>
-                  <span>الملف الشخصي</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-                                <br>
-
-                <button>
-                  <span>المنح الدراسية</span>
-                  <p>متوقفة مؤقتاً</p>
-                </button>
-
-              </div>
+                <span class="text-xl font-bold">Madarik</span>
+                <p class="text-xs">رحلتك تبدأ من هنا</p>
             </div>
-
-          </div>
+        </div>
+        <nav class="px-4 pb-8">
+            <p class="text-lg font-semibold mb-2">مساحة التعلّم</p>
+            <div class="flex flex-col gap-1">
+            <a href="Home.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="house" class="w-5 h-5 shrink-0"></i>
+                <span>الرئيسية</span>
+            </a>
+            <a href="subjects.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="book" class="w-5 h-5 shrink-0"></i>
+                <span>موادي</span>
+            </a>
+            <a href="madarik-aniqadh.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors bg-blue-600 text-white" aria-current="page">
+                <i data-lucide="book-open" class="w-5 h-5 shrink-0"></i>
+                <span>مَدارك إنقاذ</span>
+            </a>
+            <a href="my-study-plan.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="clipboard-list" class="w-5 h-5 shrink-0"></i>
+                <span>خطتي الدراسية</span>
+            </a>
+            <a href="saved-items.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="bookmark" class="w-5 h-5 shrink-0"></i>
+                <span>المحفوظات</span>
+            </a>
+            <a href="level-analysis.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="chart-no-axes-column" class="w-5 h-5 shrink-0"></i>
+                <span>تحليل المستوى</span>
+            </a>
+            <a href="focus-mode.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="target" class="w-5 h-5 shrink-0"></i>
+                <span>وضع التركيز</span>
+            </a>
+            <a href="curriculum-search.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="search" class="w-5 h-5 shrink-0"></i>
+                <span>البحث في المنهاج</span>
+            </a>
+            <a href="challenges.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="award" class="w-5 h-5 shrink-0"></i>
+                <span>التحديات</span>
+            </a>
+            <a href="madarik-lab.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="flask-conical" class="w-5 h-5 shrink-0"></i>
+                <span>مختبر مَدارِك</span>
+            </a>
+            <a href="notifications.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="bell" class="w-5 h-5 shrink-0"></i>
+                <span>الإشعارات</span>
+            </a>
+            <a href="smart-assistant.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="message-square" class="w-5 h-5 shrink-0"></i>
+                <span>المساعد الذكي</span>
+            </a>
+            <a href="sponsorships.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="users" class="w-5 h-5 shrink-0"></i>
+                <span>الرعايات</span>
+            </a>
+            <a href="development-roadmap.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="map" class="w-5 h-5 shrink-0"></i>
+                <span>خارطة التطوير</span>
+            </a>
+            <a href="admin-dashboard.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="layout-dashboard" class="w-5 h-5 shrink-0"></i>
+                <span>لوحة الإدارة</span>
+            </a>
+            </div>
+            <p class="text-lg font-semibold mt-6 mb-2">الحساب والتفضيلات</p>
+            <div class="flex flex-col gap-1">
+            <a href="personal-profile.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="user-round" class="w-5 h-5 shrink-0"></i>
+                <span>الملف الشخصي</span>
+            </a>
+            <a href="scholarships.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="graduation-cap" class="w-5 h-5 shrink-0"></i>
+                <span>المنح الدراسية</span>
+            </a>
+            </div>
         </nav>
-             </div>
-      </aside>
-      
+    </aside> 
 <header class="fixed top-0 left-0 right-64 z-10 p-6 bg-[oklch(55.4%_0.046_257.417)] text-white">
 
     <!-- الجزء العلوي -->
