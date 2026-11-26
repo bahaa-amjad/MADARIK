@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحليل المستوى | مَدارِك</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+</head>
+<body class="bg-[#e8edf6]">
+    <aside class="fixed right-0 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
+        <div class="flex items-center gap-3 px-3 pt-4 pb-6">
+            <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
+            <div>
+                <span class="text-xl font-bold">Madarik</span>
+                <p class="text-xs">رحلتك تبدأ من هنا</p>
+            </div>
+        </div>
+        <nav class="px-4 pb-8">
+            <p class="text-lg font-semibold mb-2">مساحة التعلّم</p>
+            <div class="flex flex-col gap-1">
+            <a href="Home.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="house" class="w-5 h-5 shrink-0"></i>
+                <span>الرئيسية</span>
+            </a>
+            <a href="subjects.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="book" class="w-5 h-5 shrink-0"></i>
+                <span>موادي</span>
+            </a>
+            <a href="madarik-aniqadh.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="book-open" class="w-5 h-5 shrink-0"></i>
+                <span>مَدارك إنقاذ</span>
+            </a>
+            <a href="my-study-plan.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="clipboard-list" class="w-5 h-5 shrink-0"></i>
+                <span>خطتي الدراسية</span>
+            </a>
+            <a href="saved-items.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="bookmark" class="w-5 h-5 shrink-0"></i>
+                <span>المحفوظات</span>
+            </a>
+            <a href="level-analysis.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors bg-blue-600 text-white" aria-current="page">
+                <i data-lucide="chart-no-axes-column" class="w-5 h-5 shrink-0"></i>
+                <span>تحليل المستوى</span>
+            </a>
+            <a href="focus-mode.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="target" class="w-5 h-5 shrink-0"></i>
+                <span>وضع التركيز</span>
+            </a>
+            <a href="curriculum-search.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="search" class="w-5 h-5 shrink-0"></i>
+                <span>البحث في المنهاج</span>
+            </a>
+            <a href="challenges.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="award" class="w-5 h-5 shrink-0"></i>
+                <span>التحديات</span>
+            </a>
+            <a href="madarik-lab.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="flask-conical" class="w-5 h-5 shrink-0"></i>
+                <span>مختبر مَدارِك</span>
+            </a>
+            <a href="notifications.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="bell" class="w-5 h-5 shrink-0"></i>
+                <span>الإشعارات</span>
+            </a>
+            <a href="smart-assistant.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="message-square" class="w-5 h-5 shrink-0"></i>
+                <span>المساعد الذكي</span>
+            </a>
+            <a href="sponsorships.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="users" class="w-5 h-5 shrink-0"></i>
+                <span>الرعايات</span>
+            </a>
+            <a href="development-roadmap.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="map" class="w-5 h-5 shrink-0"></i>
+                <span>خارطة التطوير</span>
+            </a>
+            <a href="admin-dashboard.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="layout-dashboard" class="w-5 h-5 shrink-0"></i>
+                <span>لوحة الإدارة</span>
+            </a>
+            </div>
+            <p class="text-lg font-semibold mt-6 mb-2">الحساب والتفضيلات</p>
+            <div class="flex flex-col gap-1">
+            <a href="personal-profile.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="user-round" class="w-5 h-5 shrink-0"></i>
+                <span>الملف الشخصي</span>
+            </a>
+            <a href="scholarships.html" class="flex items-center gap-3 p-4 rounded-lg transition-colors text-white hover:bg-blue-600">
+                <i data-lucide="graduation-cap" class="w-5 h-5 shrink-0"></i>
+                <span>المنح الدراسية</span>
+            </a>
+            </div>
+        </nav>
+    </aside>
+    <header class="fixed top-0 left-0 right-64 z-10 p-6 bg-[oklch(55.4%_0.046_257.417)] text-white">
+
+    <!-- الجزء العلوي -->
+    <div class="flex justify-between items-center">
+
+        <!-- اسم الصفحة على اليمين -->
+        <div>
+            <span>مَدارِك /</span>
+            <span>لَوحتي الدراسية</span>
+        </div>
+
+        <!-- الأدوات على اليسار -->
+        <div class="flex items-center gap-4">
+
+            <div>
+                <input type="text" placeholder="ابحث عن مادة او درس...">
+            </div>
+
+            <div>
+                <!-- الوضع الليلي -->
+            </div>
+
+            <div>
+                <!-- الإشعارات -->
+            </div>
+
+            <div>
+                <!-- الملف الشخصي -->
+            </div>
+
+        </div>
+    </div>
+    <!-- الجزء السفلي -->
+    <div class="mt-8">
+        <span class="block">صباح الإنجاز! 👋</span>
+        <span class="block">أهلاً بك في مساحة التوجيهي • مسار علمي</span>
+    </div>
+</header>
+<main class="mr-64 pt-48 px-6 pb-6">
+
+    <div dir="rtl" class="flex flex-wrap items-stretch gap-2 m-4">
+
+<section class="flex flex-[2] items-center gap-2 bg-white rounded-[15px] p-3 bg-[linear-gradient(#eaf1ff,#F7FAFF,#FFFFFF)]">
+    <p class="h-10 w-10 shrink-0 bg-[white] text-[#FF0000] rounded-[10px] px-2 py-1">📈</p>
+<div>
+    <strong class="block text-[17px] p-1 m-1">اقرأ تقدمك بدل تخمينه</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">قارن ما أنجزته بما أتقنته من الأسئلة. عدم وجود محاولات لا يعني أن المستوى ضعيف.</p>
+    <strong class="text-[12px] text-[#2459db] p-1 m-1">لا تُحسب النسب إلا من محاولاتك الفعلية.</strong>
+    </div>
+</section>
+
+<section class="flex justify-center items-center flex-1 bg-white rounded-[15px] p-3">
+<div class="text-center">
+    <strong class="block text-[23px] font-bold p-1 m-1">0</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">محاولة إجابة</p>
+    </div>
+</section>
+
+<section class="flex justify-center items-center flex-1 bg-white rounded-[15px] p-3">
+<div class="text-center">
+    <strong class="block text-[23px] font-bold p-1 m-1">0%</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">دقة الإجابات</p>
+    </div>
+</section>
+
+<section class="flex justify-center items-center flex-1 bg-white rounded-[15px] p-3">
+<div class="text-center">
+    <strong class="block text-[23px] font-bold p-1 m-1">0</strong>
+    <p class="text-[11px] text-gray-500 p-1 m-1">دقيقة دراسة</p>
+    </div>
+</section>
+</div>
+
+<!-- القسم الثاني -->
+<div dir="rtl" class="flex flex-wrap items-stretch gap-2 m-4">
+
+  <!-- المربع الأول -->
+  <section class="flex flex-[2] min-w-[280px] flex-col gap-2 rounded-[15px] p-3 bg-[white]">
+    <div class="w-full">
+      <div class="flex items-center justify-between mb-5">
+        <strong class="block text-[17px] p-1 m-1">خطوات استخدام الصفحة</strong>
+        <span class="bg-gray-300 text-gray-700 text-[12px] font-bold rounded-[5px] px-2 py-1">0 / 3 خطوة</span> 
+      </div>
+
+      <p class="text-[11px] text-gray-500 p-1 m-1">خطوات شخصية اختيارية تساعدك تتقن استخدام هذا القسم، ولا تمنح نقاطًا تلقائيًا.</p>
+      
+      <label class="bg-[#f7f9fd] rounded-[10px] p-2 m-2 gap-2 flex items-center cursor-pointer">
+        <input type="checkbox"><span class="text-[12px] text-black">سجّل إجابة من أسئلة المادة</span>
+      </label>
+
+      <label class="bg-[#f7f9fd] rounded-[10px] p-2 m-2 gap-2 flex items-center cursor-pointer">
+        <input type="checkbox"><span class="text-[12px] text-black">أكمل نشاطًا أو مهمة دراسية</span>
+      </label>
+
+      <label class="bg-[#f7f9fd] rounded-[10px] p-2 m-2 gap-2 flex items-center cursor-pointer">
+        <input type="checkbox"><span class="text-[12px] text-black">راجع أين تحتاج تدريبًا إضافيًا</span>
+      </label>
+    </div>
+
+    <div class="flex">
+<a class="hvr-grow-shadow hvr-icon-wobble-horizontal block bg-blue-500 text-white text-[12px] font-bold rounded-[10px] p-3 m-3" href="my-study-plan.html">حل سؤال <span class="hvr-icon inline-block">></span></a>
+<a class="hvr-grow-shadow hvr-icon-wobble-horizontal block bg-blue-500 text-white text-[12px] font-bold rounded-[10px] p-3 m-3" href="Home.html">خطة التحسن <span class="hvr-icon inline-block">></span></a>
+</div>
+<hr class="border-gray-300 my-2">
+<div>
+    <h3 class="font-bold text-[14px] m-2 p-1">توزيع الإجابات حسب المادة</h3>
+     <p class="text-[12px] text-gray-600 mt-1 m-2">لا توجد إجابات بعد. ابدأ أول سؤال من صفحة المادة.</p>
+</div>
+
+  </section>
+
+  <!-- المربع الثاني -->
+  <section class="flex flex-col flex-1 min-w-[250px] justify-between gap-3 bg-white border border-gray-200 rounded-[15px] p-4">
+    <div>
+      <strong class="block text-[15px] text-gray-800">هدفي في هذا القسم</strong>
+      <p class="text-[12px] text-gray-600 mt-1">سجّل هدفًا واضحًا أو ملاحظة خاصة بك. سيُحفظ على هذا الجهاز.</p>
+    </div>
+
+    <!--  الهدف الاسبوعي  -->
+<div class="flex flex-col gap-1">
+      <label for="goal" class="text-[12px] font-bold text-gray-700">هدفي لهذا الأسبوع</label>
+      <input id="goal" type="text" placeholder="مثال : أراجع 3 مواد" class="w-full bg-[#f7f9fd] border border-gray-200 rounded-[10px] p-2 text-[12px] text-black">
+    </div>
+
+    <!-- ملاحظاتي -->
+    <div class="flex flex-col gap-1">
+      <label for="notes" class="text-[12px] font-semibold text-gray-700">ملاحظاتي</label>
+      <textarea id="notes" rows="3" placeholder="اكتب ملاحظة قصيرة..." class="w-full bg-[#f7f9fd] border border-gray-200 rounded-[10px] p-2 text-[12px] text-black"></textarea>
+    </div>
+
+    <p class="text-[11px] text-gray-500">الملاحظات شخصية وتجريبية؛ لا تظهر للطلاب الآخرين.</p>
+  </section>
+</div>
+
+<!-- الانجازات المحققه -->
+<div dir="rtl" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 m-4">
+
+    <section class="flex items-center gap-3 bg-white border border-gray-200 rounded-[15px] p-4">
+        <p data-lucide="chart-pie" class="h-10 w-10 bg-[#D4DBFF] text-[#052AFF] rounded-[10px] px-2 py-1 shrink-0"></p>
+        <div>
+            <strong class="block text-[25px] text-black leading-tight">0/0</strong>
+            <p class="text-[11px] text-gray-500 mt-1">مهام مكتملة / الإجمالي</p>
+        </div>
+    </section>
+
+    <section class="flex items-center gap-3 bg-white border border-gray-200 rounded-[15px] p-4">
+        <p data-lucide="clock" class="h-10 w-10 bg-[#FFF8E3] text-[#FFC417] rounded-[10px] px-2 py-1 shrink-0"></p>
+        <div>
+            <strong class="block text-[25px] text-black leading-tight">0</strong>
+            <p class="text-[11px] text-gray-500 mt-1">إجابات مسجلة</p>
+        </div>
+    </section>
+
+    <section class="flex items-center gap-3 bg-white border border-gray-200 rounded-[15px] p-4">
+        <p data-lucide="star" class="h-10 w-10 bg-[#E4FFC7] text-[#84FF00] rounded-[10px] px-2 py-1 shrink-0"></p>
+        <div>
+            <strong class="block text-[25px] text-black leading-tight">—</strong>
+            <p class="text-[11px] text-gray-500 mt-1">دقة الإجابات</p>
+        </div>
+    </section>
+
+    <section class="flex items-center gap-3 bg-white border border-gray-200 rounded-[15px] p-4">
+        <p data-lucide="flame" class="h-10 w-10 bg-[#FFD1D1] text-[#FF0000] rounded-[10px] px-2 py-1 shrink-0"></p>
+        <div>
+            <strong class="block text-[25px] text-black leading-tight">0</strong>
+            <p class="text-[11px] text-gray-500 mt-1">دقيقة تركيز مسجلة</p>
+        </div>
+    </section>
+
+</div>
+
+<!-- الأداء والنشاط -->
+<div dir="rtl" class="grid grid-cols-1 md:grid-cols-3 items-start gap-5 m-4">
+
+    <!-- الأداء حسب المادة -->
+    <section class="bg-white border border-gray-200 rounded-[15px] p-5 md:col-span-2">
+        <div class="flex items-center justify-between mb-5">
+            <strong>الأداء حسب المادة</strong>
+            <span class="bg-gray-100 text-gray-600 font-bold text-[12px] px-3 py-1 rounded-[7px]">نشاطك الفعلي</span>
+        </div>
+
+        <div class="space-y-4">
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">رياضيات</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">فيزياء</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">كيمياء</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">العلوم الحياتية</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">اللغة العربية</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">اللغة الإنجليزية</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">التربية الإسلامية</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-1.5">
+                    <strong class="text-[12px]">تكنولوجيا المعلومات</strong>
+                    <span class="text-gray-500 text-[11px]">لا توجد إجابات بعد · 0 مهمة</span>
+                </div>
+                <div class="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="bg-blue-500 h-full rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-gray-200 my-4">
+        <p class="text-[13px] text-gray-500">يُحسب معدل الإجابات من الأسئلة التي أرسلتها فقط، ولا يعكس تقديرك المدرسي أو تحصيلك النهائي.</p>
+    </section>
+
+
+    <div class="flex flex-col gap-5">
+        <!-- توزيع النشاط -->
+        <section class="bg-white border border-gray-200 rounded-[15px] p-5">
+            <strong class="block mb-4">توزيع النشاط</strong>
+
+            <div class="flex items-center gap-3">
+                <p class="h-10 w-10 bg-[#E4FFC7] rounded-[10px] flex items-center justify-center shrink-0">✅</p>
+                <div>
+                    <strong class="text-[12px] block">مهام أُنجزت</strong>
+                    <span class="text-gray-600 text-[11px]">0 من 0</span>
+                </div>
+            </div>
+
+            <hr class="border-gray-200 my-4">
+
+            <div class="flex items-center gap-3">
+                <p class="h-10 w-10 bg-red-100 rounded-[10px] flex items-center justify-center shrink-0">🔖</p>
+                <div>
+                    <strong class="text-[12px] block">مصادر محفوظة</strong>
+                    <span class="text-gray-600 text-[11px]">0 عنصر</span>
+                </div>
+            </div>
+
+            <hr class="border-gray-200 my-4">
+
+            <div class="flex items-center gap-3">
+                <p class="h-10 w-10 bg-amber-100 rounded-[10px] flex items-center justify-center shrink-0">⏳</p>
+                <div>
+                    <strong class="text-[12px] block">جلسات تركيز</strong>
+                    <span class="text-gray-600 text-[11px]">0 جلسة · 0 دقيقة</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- اقتراح المتابعة -->
+        <section class="bg-[#E6F8EF] border border-emerald-200 rounded-[15px] p-5 flex flex-col">
+            <strong class="text-emerald-700 mb-1">اقتراح المتابعة</strong>
+            <p class="text-[12px] text-gray-500 mb-4">ابدأ بحل سؤال تدريبي من إحدى المواد لتظهر دقة إجاباتك هنا.</p>
+            <a class="hvr-grow-shadow hvr-icon-wobble-horizontal inline-flex items-center gap-2 self-end bg-blue-600 text-white text-[12px] font-bold rounded-[10px] px-4 py-2.5" href="subjects.html"> افتح موادي <span class="hvr-icon inline-block">></span></a>
+        </section>
+
+    </div>
+
+</div>
+<!-- المربع الاخير بالصفحة -->
+   <section class="flex flex-[2] min-w-[280px] flex-col gap-2 rounded-[15px] p-3 bg-[white] m-4">
+    <div class="w-full">
+      <div class="flex items-center gap-2">
+        <strong class="block text-[14px] p-1 m-1">آخر الإجابات التي سجلتها</strong>
+      </div>
+
+<div class="flex items-center justify-center flex-col gap-2 m-2 p-6 border border-gray-200 rounded-[10px] bg-[#f7f9fd]">
+    <strong class="items-center text-[16px]">لا توجد نتائج مسجلة بعد</strong>
+    <p class="text-[12px] text-gray-500 items-center">أكمل سؤالاً من بنك أسئلة الرياضيات ليظهر هنا.</p>
+</div>
+    </div>
+    </section>
+
+    <!-- تقدمي في مختبر مَدارك -->
+        <section class="flex bg-white border border-gray-200 rounded-[15px] m-4 p-4 flex-col gap-3">
+            <div class="flex items-center justify-between mb-5 m-1">
+        <strong class="text-[16px]">تقدمي في مختبر مَدارك</strong>
+        <a href="madarik-lab.html"><span class="text-blue-600 font-bold text-[14px]">افتح المختبر ←</span></a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="grid bg-gray-100 rounded-[10px] m-1 p-4 gap-4">
+        <h3 class="text-[blue] font-bold text-[18px]">0 / 7</h3>
+        <span class="text-gray-500 text-[12px]">أدوات تمت تجربتها</span>
+        </div>
+         
+        <div class="grid bg-gray-100 rounded-[10px] m-1 p-4 gap-4">
+        <h3 class="text-[blue] font-bold text-[18px]">0</h3>
+        <span class="text-gray-500 text-[12px]">تجارب محفوظة</span>
+        </div>
+
+         <div class="grid bg-gray-100 rounded-[10px] m-1 p-4 gap-4">
+        <h3 class="text-[blue] font-bold text-[18px]">0</h3>
+        <span class="text-gray-500 text-[12px]">أسئلة أنشأتها</span>
+        </div>
+        </div>
+
+        
+<a href="madarik-lab.html " class="flex justify-between items-center bg-white border border-gray-200 rounded-[10px] m-1 p-4 gap-4">
+        <h3 class="text-[11px] text-black">🐞 اصطد الخطأ</h3>
+        <span class="text-gray-500 text-[11px]">0 تجربة</span>
+</a>
+
+
+<a href="madarik-lab.html" class="flex justify-between items-center bg-white border border-gray-200 rounded-[10px] m-1 p-4 gap-4">
+         <h3 class="text-[11px] text-black">🎓 أنت الأستاذ</h3>
+        <span class="text-gray-500 text-[11px]">0 تجربة</span>
+</a>
+
+
+<a href="madarik-lab.html" class="flex justify-between items-center bg-white border border-gray-200 rounded-[10px] m-1 p-4 gap-4">
+        <h3 class="text-[11px] text-black">🎯 رادار اليقين</h3>
+        <span class="text-gray-500 text-[11px]">0 تجربة</span>
+</a>
+
+<a href="madarik-lab.html" class="flex justify-between items-center bg-white border border-gray-200 rounded-[10px] m-1 p-4 gap-4">
+        <h3 class="text-[11px] text-black">🧭 مسار القرار</h3>
+        <span class="text-gray-500 text-[11px]">0 تجربة</span>
+</a>
+
+<p class="text-[12px] text-gray-500">
+نتائج المختبر منفصلة عن دقة الامتحانات الرسمية داخل تحليل المستوى؛ بعض الأدوات تقيس المشاركة لا صحة الإجابة.
+</p>
+    </section>
+
+<!-- 🛟 مَدارك إنقاذ — الفجوات الأساسية -->
+    <section class="bg-white rounded-[10px] m-4 p-4 flex border border-gray-200 flex-col gap-3">
+        <div class="flex justify-between items-center">
+        <h3 class="font-bold text-[16px]">🛟 مَدارك إنقاذ — الفجوات الأساسية</h3>
+        <a href="madarik-aniqadh.html"><span class="text-[blue] font-bold text-[14px]">افتح إنقاذ ←</span></a>
+        </div>
+        <p class="text-[12px] text-gray-500">ابدأ تشخيصًا قصيرًا لتحصل على تصور أولي للفجوات التي قد تعيقك عن فهم الدروس الحالية.</p>
+<a href="madarik-aniqadh.html" class="hvr-grow-shadow hvr-icon-wobble-horizontal inline-flex self-start px-3 items-center bg-blue-100 text-[blue] font-bold text-[12px] p-2 rounded-[10px]">ابدأ التشخيص <span class="hvr-icon inline-block">></span></a>
+    </section>
+
+</main>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
