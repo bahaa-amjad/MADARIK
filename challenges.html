@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="bg-[#e8edf6]">
-    <aside class="fixed right-0 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
+    <aside class="fixed right-0 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white z-10">
         <div class="flex items-center gap-3 px-3 pt-4 pb-6">
             <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
             <div>
@@ -132,22 +132,154 @@
     </div>
 </header>
 
-<main class="mt-43 mr-70 ml-12 flex flex-col gap-2">
+<main class="mt-43 mr-70 ml-12 flex flex-col gap-4">
     <div class="flex flex-row gap-4 h-full w-full">
-        <div class="w-[50%] bg-white h-full">
+        <div class="w-[50%] bg-white p-4 flex flex-row gap-2 rounded-[13px] shadow-md">
+            <div class="h-[50px] w-[50px] bg-[#e8edf6] rounded-[15px] flex items-center justify-center">
+                <div class="scale-[160%]">🎖️</div>
+
+            </div>
+            <div class="flex flex-col gap-2">
+                <p class="text-[15px] font-bold">تحديات يمكن قياسها</p>
+                <p class="text-[#7b899e] text-[11px]"> شاهد مسار الشارات وتقدّمك، واختر نشاطًا دراسيًا يدعم تحديًا واحدًا على الأقل.</p>
+                <p class="text-[#2459db] text-[12px] font-bold">المكافآت هنا رقمية وتجريبية.</p>
+
+            </div>
+        </div>
+        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md">
+            <div class="flex flex-col items-center justify-center gap-2">
+                <p class="font-bold text-[20px]">0</p>
+                <p class="text-[12px] text-[#7b899e]">تحديات انضممت لها</p>
+            </div>
 
         </div>
-        <div class="w-[16.6%] bg-white h-16">
+        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md">
+            <div class="flex flex-col items-center justify-center gap-2">
+                <p class="font-bold text-[20px]">0</p>
+                <p class="text-[12px] text-[#7b899e]">شارات مكتسبة</p>
+            </div>
 
         </div>
-        <div class="w-[16.6%] bg-white h-16">
+        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md">
+            <div class="flex flex-col items-center justify-center gap-2">
+                <p class="font-bold text-[20px]">6</p>
+                <p class="text-[12px] text-[#7b899e]">تحديات متاحة</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="flex flex-row gap-4 h-full w-full ">
+        <div class="w-[60%] bg-white h-full rounded-[13px] shadow-md p-4 flex flex-col gap-2">
+            <div class="flex flex-row gap justify-between">
+                <div class="flex flex-col gap-4 h-full w-full ">
+                    <p class="font-bold">خطوات استخدام الصفحة</p>
+                    <p class="text-[#7b899e] text-[12px]">خطوات شخصية اختيارية تساعدك تتقن استخدام هذا القسم، ولا تمنح نقاطًا تلقائيًا.</p>
+                </div>
+                <div class=" ">
+                    <p class="text-[13px] w-16 bg-[#f1f4f8] text-[#8692a7]  pr-4 pl-4 rounded-[7px]">0 / 3 خطوة</p>
+                </div>
+            </div>
+        <div>
+
+        </div class="flex flex-col gap-4 justify-between">    
+            <div class="bg-[#f7f9fd] p-3 border border-1 border-[#e8edf6] rounded-[13px] flex flex-row gap-2">
+                <input type="checkbox" id="sss">
+                <label for="sss" class="text-[13px]">انضم لتحدٍ دراسي</label>
+            </div>
+            <div class="bg-[#f7f9fd] p-3 border border-1 border-[#e8edf6] rounded-[13px] flex flex-row gap-2">
+                <input type="checkbox" id="ssa">
+                <label for="ssa" class="text-[13px]">أنجز نشاطًا فعليًا يخدم التحدي</label>
+            </div>
+            <div class="bg-[#f7f9fd] p-3 border border-1 border-[#e8edf6] rounded-[13px] flex flex-row gap-2">
+                <input type="checkbox" id="saa">
+                <label for="saa" class="text-[13px]">تحقق من تقدّم الشارات</label>
+            </div>
+        
+        <div class="flex flex-row gap-2">
+            <button class="bg-[#eaf1ff] text-[#2459db] pt-[8px] pb-[8px] pr-[13px] pl-[13px] rounded-[10px] font-bold">
+                المكافآت 
+            </button>
+            <button class="bg-[#eaf1ff] text-[#2459db] pt-[8px] pb-[8px] pr-[13px] pl-[13px] rounded-[10px] font-bold">
+                ابدأ الدراسة 
+            </button>
+        </div>
+
+        <hr class=" mt-4 text-[#e8edf6]">
+
+        <div class="flex flex-col gap-4">
+            <div>
+                <p class="font-bold text-[14px]">فلترة التحديات</p>
+            </div>
+            <div class="flex flex-row gap-2 text-[12px]">
+                <button class="pt-[8px] pb-[8px] pr-[13px] pl-[13px] rounded-[10px] font-bold border border-1 border-[#e8edf6]">الكل </button>
+                <button class="pt-[8px] pb-[8px] pr-[13px] pl-[13px] rounded-[10px] font-bold border border-1 border-[#e8edf6]">المنضم اليها</button>
+                <button class="pt-[8px] pb-[8px] pr-[13px] pl-[13px] rounded-[10px] font-bold border border-1 border-[#e8edf6]">المتاحة</button>
+                <button class="pt-[8px] pb-[8px] pr-[13px] pl-[13px] rounded-[10px] font-bold border border-1 border-[#e8edf6]">المكتملة</button>
+            </div>
+        </div>
+
+    </div>
+
+        
+
+        
+        <div class="w-[50%] bg-white h-full rounded-[13px] shadow-md p-4 flex flex-col gap-4">  
+            <div>
+                <h4 class="font-bold h-full w-full text-[12px]">هدفي في هذا القسم</h4>
+            </div> 
+            <div>
+                <h6 class="font-bold h-full w-full text-[10px] text-[#7b899e]">سجّل هدفًا واضحًا أو ملاحظة خاصة بك. سيُحفظ على هذا الجهاز.</h6>
+            </div>
+            <div class="flex flex-col gap-1">
+                <label for="saw" class="font-bold h-full w-full text-[10px] text-[#7b899e]">هدفي هذا الاسبوع</label>
+                <input class="bg-[#f7f9fd] p-2 rounded-[13px] border border-1 border-[#e8edf6]" type="text" id="saw" placeholder="اكتب نص" class="w-full bg-[#f7f9fd]focus:border-sky-500">
+            </div>
+            <div class="flex flex-col gap-1">
+                <label for="saw" class="font-bold h-full w-full text-[10px] text-[#7b899e]">ملاحظاتي</label>
+                <textarea class="bg-[#f7f9fd] p-2 rounded-[13px] border border-1 border-[#e8edf6]" name="ss" id="" placeholder="دون"></textarea>
+            </div>
+            <div>
+                <p class="font-bold h-full w-full text-[10px] text-[#7b899e]">الملاحظات شخصية وتجريبية؛ لا تظهر للطلاب الآخرين.</p>
+            </div>
 
         </div>
-        <div class="w-[16.6%] bg-white h-16">
+    </div>
 
+    <div class="flex flex-col gap-4">
+        <div class="flex flex-row gap-4 w-full">
+            <div class="w-[50%] h-16 bg-white">
+
+            </div>
+            <div class="w-[50%] h-16 bg-white">
+
+            </div>
         </div>
+        <div class="flex flex-row gap-4 w-full">
+            <div class="w-[50%] h-16 bg-white">
 
+            </div>
+            <div class="w-[50%] h-16 bg-white">
 
+            </div>
+        </div>
+        <div class="flex flex-row gap-4 w-full">
+            <div class="w-[50%] h-16 bg-white">
+
+            </div>
+            <div class="w-[50%] h-16 bg-white">
+
+            </div>
+        </div>
+        <div class="flex flex-row gap-4 w-full">
+            <div class="w-[50%] h-16 bg-white">
+
+            </div>
+            <div class="w-[50%] h-16 bg-white">
+
+            </div>
+        </div>
     </div>
 </main>
     <script>lucide.createIcons();</script>
