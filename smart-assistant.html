@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المساعد الذكي | مَدارِك</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#e8edf6]">
+    <aside class="fixed right-0 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white">
+        <div class="flex items-center gap-3 px-3 pt-4 pb-6">
+            <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
+            <div>
+                <span class="text-xl font-bold">Madarik</span>
+                <p class="text-xs">رحلتك تبدأ من هنا</p>
+            </div>
+        </div>
+        <nav class="px-4 pb-8">
+            <p class="text-lg font-semibold mb-2">مساحة التعلّم</p>
+            <div class="flex flex-col gap-1">
+            <a href="Home.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="house" class="w-5 h-5"></i>
+                <span>الرئيسية</span>
+            </a>
+            <a href="subjects.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="book" class="w-5 h-5"></i>
+                <span>موادي</span>
+            </a>
+            <a href="madarik-aniqadh.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="book-open" class="w-5 h-5"></i>
+                <span>مَدارك إنقاذ</span>
+            </a>
+            <a href="my-study-plan.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="clipboard-list" class="w-5 h-5"></i>
+                <span>خطتي الدراسية</span>
+            </a>
+            <a href="saved-items.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="bookmark" class="w-5 h-5"></i>
+                <span>المحفوظات</span>
+            </a>
+            <a href="level-analysis.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="chart-no-axes-column" class="w-5 h-5"></i>
+                <span>تحليل المستوى</span>
+            </a>
+            <a href="focus-mode.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="target" class="w-5 h-5"></i>
+                <span>وضع التركيز</span>
+            </a>
+            <a href="curriculum-search.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="search" class="w-5 h-5"></i>
+                <span>البحث في المنهاج</span>
+            </a>
+            <a href="challenges.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="award" class="w-5 h-5"></i>
+                <span>التحديات</span>
+            </a>
+            <a href="madarik-lab.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="flask-conical" class="w-5 h-5"></i>
+                <span>مختبر مَدارِك</span>
+            </a>
+            <a href="notifications.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="bell" class="w-5 h-5"></i>
+                <span>الإشعارات</span>
+            </a>
+            <a href="smart-assistant.html" class="flex items-center gap-3 p-4 bg-blue-600" aria-current="page">
+                <i data-lucide="message-square" class="w-5 h-5"></i>
+                <span>المساعد الذكي</span>
+            </a>
+            <a href="sponsorships.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="users" class="w-5 h-5"></i>
+                <span>الرعايات</span>
+            </a>
+            <a href="development-roadmap.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="map" class="w-5 h-5"></i>
+                <span>خارطة التطوير</span>
+            </a>
+            <a href="admin-dashboard.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="layout-dashboard" class="w-5 h-5"></i>
+                <span>لوحة الإدارة</span>
+            </a>
+            </div>
+            <p class="text-lg font-semibold mt-6 mb-2">الحساب والتفضيلات</p>
+            <div class="flex flex-col gap-1">
+            <a href="personal-profile.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="user-round" class="w-5 h-5"></i>
+                <span>الملف الشخصي</span>
+            </a>
+            <a href="scholarships.html" class="flex items-center gap-3 p-4">
+                <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                <span>المنح الدراسية</span>
+            </a>
+            </div>
+        </nav>
+    </aside>
+    <header class="fixed top-0 left-0 right-64 z-10 p-6 bg-[oklch(55.4%_0.046_257.417)] text-white">
+    <div class="flex justify-between items-center">
+        <div>
+            <span>مَدارِك /</span>
+            <span>لَوحتي الدراسية</span>
+        </div>
+        <div class="flex items-center gap-4">
+            <input type="search" placeholder="ابحث عن مادة او درس..." aria-label="ابحث عن مادة أو درس" class="w-64 bg-white text-gray-800 text-sm rounded-lg border border-gray-300 px-4 py-2">
+            <a href="personal-profile.html" aria-label="الملف الشخصي" class="flex items-center justify-center w-11 h-11 rounded-full bg-[#142847]">
+                <i data-lucide="user" class="w-6 h-6"></i>
+            </a>
+        </div>
+    </div>
+    <div class="mt-8">
+        <span class="block">يعطيك العافية!</span>
+        <span class="block">شو بدك تدرس اليوم؟</span>
+    </div>
+
+</header>
+
+<main class="mt-43 mr-70 ml-12">
+    <div class="flex flex-row justify-between gap-6">
+        <div class="w-[65%] bg-white  flex flex-col p-4 gap-4 shadow-md rounded-[13px]">
+            <div class="w-full bg-white h-full flex flex-row ">
+                <div class="h-full w-full flex flex-row flex-1 gap-2">
+                    <img src="image/Untitled-9.png" alt="Ai-ASSITANT" class="rounded-[13px]">
+                    <div class="flex flex-col ">
+                        <h4 class="font-bold text-[14px]">مساعد مَدارك • الرياضيات</h4>
+                        <h4 class="text-[#7b899e] text-[12px]">جاهز لشرح المفاهيم ومراجعة أخطائك</h4>
+                    </div>
+                </div>
+                <div>
+                    <span class="h-full w-full flex-1 rounded-[9px] bg-[#ffbfbf] text-[#920b0b] font-bold pr-2 pl-2 pt-1 pb-1 text-[12px]">غير متاح حاليا !</span>
+                </div>
+
+                
+            </div>
+
+            <hr class=" w-full h-full text-[#e8edf6]">
+
+            <div class="flex flex-col gap-4">
+                <span class="text-[#7b899e] text-[12px]">مثال : </span>
+                <div>
+                    <p class="mt-1 p-4 bg-[#eef4ff] w-[70%] h-full rounded-[13px] text-[#2852a2] text-[14px]">مش فاهم ليش مشتقة x² + 3x بتطلع 2x + 3؟</p>
+                </div>
+
+                <div class="h-full w-[70%] self-end bg-[#f4f6fa] p-4 rounded-[13px] text-[13px] flex flex-col mb-16 gap-2">
+                    <p class="text-[#2459db] font-bold">مساعد مَدارك ✨</p>
+                    <p>تمام، نشتق كل حد بشكل منفصل:</p>
+                    <p>مشتقة x² هي 2x، ومشتقة 3x هي 3.</p>
+                    <div class="bg-white w-full flex flex-row justify-center p-4 border border-1 border-[#dce4f0]">
+                        <p class="text-[#193c7a] font-bold text-[18px]">f′(x) = 2x + 3</p>
+                    </div>
+                    <p>بدك نجرب سؤال مشابه مع بعض؟</p>
+                </div>
+            </div>
+
+            <hr class=" w-full h-full text-[#e8edf6]">
+
+            <div class="h-full w-full flex flex-row gap-2">
+                <div class="w-[90%] bg-[#f7f9fd] p-3 h-full rounded-[10px] border border-1 border-[#e8edf6]">
+                    <input type="text" class="w-full h-full focus:outline-hidden" placeholder="اكتب سؤال">
+                </div>
+                <div class="w-[10%] bg-[#2459db] rounded-[10px] shadow-md flex justify-center">
+                    <form action="GET" class="w-[10%] bg-[#2459db] rounded-[10px] shadow-md flex justify-center">
+                        <button class="text-[white] self-center w-[10%] bg-[#2459db] rounded-[10px] shadow-md flex justify-center" type="submit">ارسال</button>
+                    </form>    
+                </div>
+            </div>
+
+        
+        </div>
+        
+        <div class="w-[35%] flex flex-col gap-6">
+
+    
+            <div class="bg-white p-4 flex flex-col gap-4 rounded-[13px] shadow-md pb-32">
+                <div>
+                     <h2 class="font-bold text-[15px]">ماذا يمكن ان اسأله؟</h2>
+                </div>
+            <div class="p-4 bg-[#f4f7fd] rounded-[13px] font-bold border border-[#e8edf6] text-[14px]">
+                <h4>✦ اشرح لي بمثال</h4>
+             </div>
+            <div class="p-4 bg-[#f4f7fd] rounded-[13px] font-bold border border-[#e8edf6] text-[14px]">
+                <h4>✦ لماذا إجابتي خاطئة؟</h4>
+             </div>
+            <div class="p-4 bg-[#f4f7fd] rounded-[13px] font-bold border border-[#e8edf6] text-[14px]">
+                <h4>✦ اختبرني الآن</h4>
+             </div>
+                
+            </div>
+
+    
+            <div class="flex-1 bg-[#e7fbf7] p-4 flex flex-col gap-4 rounded-[13px] shadow-md">
+                 <h2 class="font-bold text-[15px] text-[#087c6b]">خصوصية المساعد</h2>
+                    <p class="text-[#508d84] text-[13px]">في النسخة المقترحة يستند إلى محتوى المادة المحدد، وليس إلى صفحات عشوائية. هذه محادثة توضيحية وليست خدمة AI حقيقية.</p>
+             </div>
+
+        </div>
+    
+</main>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
