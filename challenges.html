@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="bg-[#e8edf6]">
-    <aside class="fixed right-0 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white z-10">
+    <aside class="max-md:hidden max-sm:hidden max-lg:hidden fixed right-0 z-12 top-0 w-64 h-screen bg-[#142847] overflow-y-auto text-white ">
         <div class="flex items-center gap-3 px-3 pt-4 pb-6">
             <img src="image/Book-open.png" alt="Book Logo" class="w-16 h-16">
             <div>
@@ -132,35 +132,35 @@
     </div>
 </header>
 
-<main class="mt-43 mr-70 ml-12 flex flex-col gap-4 pb-16">
-    <div class="flex flex-row gap-4 h-full w-full">
-        <div class="w-[50%] bg-white p-4 flex flex-row gap-2 rounded-[13px] shadow-md">
-            <div class="h-[50px] w-[50px] bg-[#e8edf6] rounded-[15px] flex items-center justify-center">
+<main class="mt-43 mr-70 ml-12 flex flex-col gap-4 pb-6 max-sm:mt-40  max-sm:mr-2 max-md:ml-2 max-md:mr-4 max-lg:ml-4 max-lg:mr-4">
+    <div class="flex flex-row gap-4 h-full w-full max-sm:flex-col max-md:flex-col max-lg:flex-col max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">
+        <div class="w-[50%] bg-white p-4 flex flex-row gap-2 rounded-[13px] shadow-md max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px] ">
+            <div class="h-[50px] w-[50px] bg-[#e8edf6] rounded-[15px] flex items-center justify-center ">
                 <div class="scale-[160%]">🎖️</div>
 
             </div>
-            <div class="flex flex-col gap-2">
-                <p class="text-[15px] font-bold">تحديات يمكن قياسها</p>
-                <p class="text-[#7b899e] text-[11px]"> شاهد مسار الشارات وتقدّمك، واختر نشاطًا دراسيًا يدعم تحديًا واحدًا على الأقل.</p>
-                <p class="text-[#2459db] text-[12px] font-bold">المكافآت هنا رقمية وتجريبية.</p>
+            <div class="flex flex-col gap-2 ">
+                <p class="text-[15px] font-bold ">تحديات يمكن قياسها</p>
+                <p class="text-[#7b899e] text-[11px] "> شاهد مسار الشارات وتقدّمك، واختر نشاطًا دراسيًا يدعم تحديًا واحدًا على الأقل.</p>
+                <p class="text-[#2459db] text-[12px] font-bold ">المكافآت هنا رقمية وتجريبية.</p>
 
             </div>
         </div>
-        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md">
-            <div class="flex flex-col items-center justify-center gap-2">
+        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">
+            <div class="flex flex-col items-center justify-center gap-2 ">
                 <p class="font-bold text-[20px]">0</p>
                 <p class="text-[12px] text-[#7b899e]">تحديات انضممت لها</p>
             </div>
 
         </div>
-        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md">
+        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">
             <div class="flex flex-col items-center justify-center gap-2">
                 <p class="font-bold text-[20px]">0</p>
                 <p class="text-[12px] text-[#7b899e]">شارات مكتسبة</p>
             </div>
 
         </div>
-        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md">
+        <div class="w-[16.6%] bg-white p-8 rounded-[13px] shadow-md max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">
             <div class="flex flex-col items-center justify-center gap-2">
                 <p class="font-bold text-[20px]">6</p>
                 <p class="text-[12px] text-[#7b899e]">تحديات متاحة</p>
@@ -170,7 +170,7 @@
 
     </div>
 
-    <div class="flex flex-row gap-4 h-full w-full ">
+    <div class="flex flex-row gap-4 h-full w-full max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">
         <div class="w-[60%] bg-white h-full rounded-[13px] shadow-md p-4 flex flex-col gap-2">
             <div class="flex flex-row gap justify-between">
                 <div class="flex flex-col gap-4 h-full w-full ">
@@ -183,7 +183,7 @@
             </div>
         <div>
 
-        </div class="flex flex-col gap-4 justify-between">    
+        </div class="flex flex-col gap-4 justify-between max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">    
             <div class="bg-[#f7f9fd] p-3 border border-1 border-[#e8edf6] rounded-[13px] flex flex-row gap-2">
                 <input type="checkbox" id="sss">
                 <label for="sss" class="text-[13px]">انضم لتحدٍ دراسي</label>
@@ -225,7 +225,7 @@
         
 
         
-        <div class="w-[50%] bg-white h-full rounded-[13px] shadow-md p-4 flex flex-col gap-4">  
+        <div class="w-[50%] bg-white h-full rounded-[13px] shadow-md p-4 flex flex-col gap-4 max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]">  
             <div>
                 <h4 class="font-bold h-full w-full text-[12px]">هدفي في هذا القسم</h4>
             </div> 
@@ -247,7 +247,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-4 max-sm:w-[560px] max-md:w-[720px] max-lg:w-[960px]" >
         <div class="flex flex-row gap-4 w-full h-full">
             <div class="w-[50%] h-full bg-white flex gap-4 flex-col p-4 rounded-[13px] shadow-md">
                 <div class="flex flex-row justify-between">
